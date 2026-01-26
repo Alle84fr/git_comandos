@@ -1,5 +1,5 @@
 # GitHub, Git e seus comanos
-[Significados ](#Significados) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Comandos](#Comandos)
+[Comandos](#Comandos)
 
 ## Significados:
 
