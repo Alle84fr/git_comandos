@@ -560,7 +560,7 @@ Se quiser atualizar, conforme o original, deve dar comando
 
 4° clonar no seu computador
 
-![Lista de ações, criar respotories](/img/07.png)
+![Pag repositório para afzer fork](/img/07.png)
 
 [⬆︎ voltar](#comandos)
 <br>
