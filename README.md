@@ -39,7 +39,7 @@ Ao invés de ter de sempre digitar todo url, usa-se a palavra origin no lugar do
 
 ## Comandos:
 
-[Global e Remoto:](#-global_e_remoto) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repositório](#-repositorio) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL REpositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git_init) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git_clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git_status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git_add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git_commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git_push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git_pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git_branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git_merge) 
+[Repositório](#-repositório) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL Repositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git-init) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git-clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git-status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git-add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git-commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git-push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git-pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git-branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git-merge) 
 
 [⬆︎ voltar](#Significados)
 
