@@ -5,6 +5,7 @@
 
 [O que é o Git](#-git) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o GitHub](#-gitHub) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Commit](#-commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Branch](#-branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Origin](#-origin)
 
+
 #### 🍀 Git:
 
 Sistema de controle de versão do código = <i>versionamento.</i>
@@ -39,11 +40,13 @@ Ao invés de ter de sempre digitar todo url, usa-se a palavra origin no lugar do
 
 ## Comandos:
 
-[Repositório](#-repositório) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL Repositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git-init) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git-clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git-status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git-add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git-commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git-push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git-pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git-branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git-merge) 
+[Repositório](#-repositório) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL Repositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git-init) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git-clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git-status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git-add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git-commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git-push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git-pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git-branch) 
 
-[⬆︎ voltar](#Significados)
+[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git-merge) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [⬆︎ voltar](#Significados)
+
 
 #### 🌴 Global e Remoto:
+
 
 GLOBAL - irá modificar todos os repositório.
 A modificação será do momento da configuração e seguirá para os diante.
