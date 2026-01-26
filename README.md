@@ -6,7 +6,7 @@
 [O que é o Git](#-git) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o GitHub](#-gitHub) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Commit](#-commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Branch](#-branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é o Origin](#-origin)
 
 
-#### 🍀 Git:
+### 🍀 Git: 
 
 Sistema de controle de versão do código = <i>versionamento.</i>
 
@@ -14,17 +14,17 @@ Registra mudanças realizadas no código e as mantém organizadas.
 
 Sistema distribuído = código possui histórico completo que pode ser - compartilhado, usado e modificado por outros desenvolvedores 
 
-#### 🪼 GitHub 🐱:
+### 🪼 GitHub 🐱:
 
 <i>Plataforma online</i>, para salvar os repositório (remoto), públicos ou privados.
 
-#### 🌿 Commit:
+### 🌿 Commit:
 
 <i>Promessa de envio</i> de uma nova versão do projeto.
 
 Registra um ponto onde houve mudanças
 
-#### 🌵 Branch:
+### 🌵 Branch:
 
 A branch <i>Main/master é o braço, ou a linha principal do projeto</i>. Ela recebe as outras linhas/branches do projeto.
 
@@ -32,7 +32,7 @@ A branch que vai para produção
 
 Geralmente, para não ter problemas nos projetos, os desenvolvedores utilizam outra branch para criar e testar os códigos e só depois juntam (merge) à branch principal
 
-#### 🌱 Origin:
+### 🌱 Origin:
 
 Nome, <i>apelido dado para o url do git</i>
 
@@ -45,7 +45,7 @@ Ao invés de ter de sempre digitar todo url, usa-se a palavra origin no lugar do
 [Git push](#-git-push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git-pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git-branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git-merge) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [⬆︎ voltar](#Significados)
 
 
-#### 🌴 Global e Remoto:
+### 🌴 Global e Remoto:
 
 
 GLOBAL - irá modificar todos os repositório.
@@ -77,7 +77,7 @@ ex: git config --global user.name "Alle"
 
 ```git config user.email```
 
-#### 🌱 Repositório:
+### 🌱 Repositório:
 
 ╰┈➤ Iniciando:
 
@@ -134,7 +134,7 @@ Clicar no botão verde new
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 💐 URL:
+### 💐 URL:
 
 ![Pag do repositório criado](/img/06.png)
 
@@ -153,7 +153,7 @@ Este URL será usado para:
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🪾 Git init:
+### 🪾 Git init:
 
 Iniciar no seu computador (local) o projeto criado no github (repositório) que, neste caso,
 <b><i>DEVEE ESTAR VAZIO</i></b>
@@ -188,7 +188,7 @@ ex: git remote add origin https://github.com/Alle84fr/nome_repositorio.git
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🪺 Git clone:
+### 🪺 Git clone:
 
 O respositório <b> já deve ter algum conteúdo</b>, seja uma descrição, README, um file
 
@@ -205,7 +205,7 @@ ex: git clone https://github.com/Alle84fr/nome_repositorio.git
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🪻 Git status:
+### 🪻 Git status:
 
 - informa:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Nome da branch ativa, que está atuando no momento
@@ -220,7 +220,7 @@ git status
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌲 Git add:
+### 🌲 Git add:
 
 Marcando, adicionando o arquivo a área chamada de staging area, local onde os arquivos ficam esperando para ver se serão, ou não commitados
 
@@ -256,7 +256,7 @@ git add .
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌹 Git commit:
+### 🌹 Git commit:
 
 Deixar tudo pronto para envio ao repositório remoto
 Se abrir uma aspa, escrever uma linha e der enter, irá criar nova linhas, só será considerado fim do comentário do commit, quando a segunda aspas for posta
@@ -391,7 +391,7 @@ git push origin nome_branch -f
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌻 Git push:
+### 🌻 Git push:
 
 Enviar modificações do repositório local para remoto
 
@@ -415,7 +415,7 @@ git branch -a
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌷 Git pull:
+### 🌷 Git pull:
 
 Trazer conteúdo da remota para local
 
@@ -440,7 +440,7 @@ git fetch --all
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌼 Git branch:
+### 🌼 Git branch:
 
 Curiosidade o -a é de all, todas
 - Saber todas as branches, local e remota
@@ -546,7 +546,7 @@ git push origin :nome_da_sua_branch
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌳 fork:
+### 🌳 fork:
 
 Copiar todo um repositório de outra pessoa no seu github
 Todas modificações que fizer neste fork não serão passados para o original
@@ -565,7 +565,7 @@ Se quiser atualizar, conforme o original, deve dar comando
 [⬆︎ voltar](#comandos)
 <br>
 
-#### 🌳 Git merge:
+### 🌳 Git merge:
 
 Clicar em:
 
