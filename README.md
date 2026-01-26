@@ -570,11 +570,17 @@ Se quiser atualizar, conforme o original, deve dar comando
 Clicar em:
 
 &nbsp;&nbsp;&nbsp;&nbsp; - pull request
+
 &nbsp;&nbsp;&nbsp;&nbsp; - new pull request
+
 &nbsp;&nbsp;&nbsp;&nbsp; - base = main
+
 &nbsp;&nbsp;&nbsp;&nbsp; - compare = branch a ser enviada para main
+
 &nbsp;&nbsp;&nbsp;&nbsp; - create pull request
+
 &nbsp;&nbsp;&nbsp;&nbsp; - Se não tiver conflito, merge pull request
+
 &nbsp;&nbsp;&nbsp;&nbsp; - confirm merge
-<br>
+
 [⬆︎ voltar](#comandos)
