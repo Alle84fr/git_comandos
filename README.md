@@ -39,7 +39,9 @@ Ao invés de ter de sempre digitar todo url, usa-se a palavra origin no lugar do
 
 ## Comandos:
 
-[Global e Remoto:](#-global_e_remoto) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repositório](#-repositorio) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL REpositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git_init:) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git_clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git_status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git_add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git_commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git_push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git_pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git_branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git_merge) 
+[Global e Remoto:](#-global_e_remoto) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Repositório](#-repositorio) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[URL REpositório](#-url) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git init](#-git_init) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git clone](#-git_clone) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git status](#-git_status) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git add](#-git_add) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git commit](#-git_commit) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git push](#-git_push) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git  pull](#-git_pull) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git branch](#-git_branch) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fork](#-fork) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Git merge](#-git_merge) 
+
+[⬆︎ voltar](#Significados)
 
 #### 🌴 Global e Remoto:
 
@@ -126,6 +128,9 @@ Clicar no botão verde new
 
 7° CREATE REPOSITORY 
 
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 💐 URL:
 
 ![Pag do repositório criado](/img/06.png)
@@ -141,6 +146,9 @@ Este URL será usado para:
 <b>Clonar </b>um repositório local, se estiver com algo já adiconado no remoto.
 
 <b>Enviar </b>o link para que outra pessoa o encontre ou possa fazer fork, ou outras ações
+
+[⬆︎ voltar](#comandos)
+<br>
 
 #### 🪾 Git init:
 
@@ -174,6 +182,9 @@ git remote add origin url
 ```
 ex: git remote add origin https://github.com/Alle84fr/nome_repositorio.git
 
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 🪺 Git clone:
 
 O respositório <b> já deve ter algum conteúdo</b>, seja uma descrição, README, um file
@@ -188,6 +199,9 @@ git clone url
 
 ex: git clone https://github.com/Alle84fr/nome_repositorio.git
 
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 🪻 Git status:
 
 - informa:
@@ -199,6 +213,9 @@ ex: git clone https://github.com/Alle84fr/nome_repositorio.git
 ```
 git status
 ```
+
+[⬆︎ voltar](#comandos)
+<br>
 
 #### 🌲 Git add:
 
@@ -233,6 +250,9 @@ Este comando pega todos os arquivos criados e modificados, sem risco de esquecer
 git add .
 ```
 
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 🌹 Git commit:
 
 Deixar tudo pronto para envio ao repositório remoto
@@ -251,33 +271,13 @@ texto3"
 &nbsp;&nbsp;➡︎ <b>add</b> = quando foi adicionado novos arquivos, funcionalidades, branches .....
 &nbsp;&nbsp;➡︎ <b>fix</b> = quando se corrigiu u bug
 &nbsp;&nbsp;➡︎ <b>update</b> = atualização, porém sem correção de bugs
+&nbsp;&nbsp;➡︎ <b>enhance</b> = atualização, porém sem correção de bugs
 &nbsp;&nbsp;➡︎ <b>remove</b> = removeu, deletou algo
 &nbsp;&nbsp;➡︎ <b>rename</b> = renomeou algo como, variável, função, file, folder ....
 &nbsp;&nbsp;➡︎ <b>refactor</b> = melhoria do código, sem corrigir erros
 &nbsp;&nbsp;➡︎ <b>move</b> = moveu arquivo, código para outro lugar
 &nbsp;&nbsp;➡︎ <b>revert</b> = desfez alteração
 &nbsp;&nbsp;➡︎ <b>merge = </b> = mesclou as merges
-
-#### 🌻 Git push:
-
-Enviar modificações do repositório local para remoto
-
-- enviar uma branch específica
-
-```
-git push origin nome_branch
-```
-
-ex: git branch origin main
-ex: git branch origin alle
-
-- envinando todas branches local
-
-```
-git branch --all
-ou
-git branch -a
-```
 
 - verificar histórico de commits, mostra a hash SHA-1 completo (40 caracteres)
 
@@ -385,6 +385,33 @@ ou
 git push origin nome_branch -f
 ```
 
+[⬆︎ voltar](#comandos)
+<br>
+
+#### 🌻 Git push:
+
+Enviar modificações do repositório local para remoto
+
+- enviar uma branch específica
+
+```
+git push origin nome_branch
+```
+
+ex: git branch origin main
+ex: git branch origin alle
+
+- envinando todas branches local
+
+```
+git branch --all
+ou
+git branch -a
+```
+
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 🌷 Git pull:
 
 Trazer conteúdo da remota para local
@@ -406,6 +433,9 @@ git pull --all
 ```
 git fetch --all
 ```
+
+[⬆︎ voltar](#comandos)
+<br>
 
 #### 🌼 Git branch:
 
@@ -510,6 +540,8 @@ git branch -d nome_da_sua_branch
 ```
 git push origin :nome_da_sua_branch
 ```
+[⬆︎ voltar](#comandos)
+<br>
 
 #### 🌳 fork:
 
@@ -527,6 +559,9 @@ Se quiser atualizar, conforme o original, deve dar comando
 
 ![Lista de ações, criar respotories](/img/07.png)
 
+[⬆︎ voltar](#comandos)
+<br>
+
 #### 🌳 Git merge:
 
 Clicar em:
@@ -538,3 +573,5 @@ Clicar em:
 &nbsp;&nbsp;&nbsp;&nbsp; - create pull request
 &nbsp;&nbsp;&nbsp;&nbsp; - Se não tiver conflito, merge pull request
 &nbsp;&nbsp;&nbsp;&nbsp; - confirm merge
+<br>
+[⬆︎ voltar](#comandos)
