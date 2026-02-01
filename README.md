@@ -407,9 +407,9 @@ ex: git branch origin alle
 - envinando todas branches local
 
 ```
-git branch --all
+git push --all
 ou
-git branch -a
+git push -a
 ```
 
 [⬆︎ voltar](#comandos)
