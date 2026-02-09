@@ -374,11 +374,13 @@ pick 8a9b0c1 Atualiza arquivo de configuração
 
 tecle:
 
-w - salvar
+esc
 
-ws - salvar e sair
+:w - salvar
 
-q - desistir
+:ws - salvar e sair
+
+:q - desistir
 
 DEPOIS DEVE DAR
 
