@@ -77,6 +77,14 @@ ex: git config --global user.name "Alle"
 
 ```git config user.email```
 
+### 🌱 Verificar repositório
+
+```git remote -v```
+
+retorno seria algo assim
+origin  https://github.com/seuusuario/seurepositorio.git (fetch)
+origin  https://github.com/seuusuario/seurepositorio.git (push)
+
 ### 🌱 Repositório:
 
 ╰┈➤ Iniciando:
