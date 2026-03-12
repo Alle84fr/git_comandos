@@ -1,4 +1,4 @@
-# GitHub, Git e seus comanos
+# GitHub, Git e seus comandos
 [Comandos](#Comandos)
 
 ## Significados:
@@ -28,7 +28,7 @@ Registra um ponto onde houve mudanças
 
 A branch <i>Main/master é o braço, ou a linha principal do projeto</i>. Ela recebe as outras linhas/branches do projeto.
 
-A branch que vai para produção
+A branch que será executada
 
 Geralmente, para não ter problemas nos projetos, os desenvolvedores utilizam outra branch para criar e testar os códigos e só depois juntam (merge) à branch principal
 
@@ -79,6 +79,8 @@ ex: git config --global user.name "Alle"
 
 ### 🍂 Verificar repositório
 
+Mostra nome e URL do repositório remoto
+
 ```git remote -v```
 
 retorno seria algo assim
@@ -87,7 +89,31 @@ origin  https://github.com/seuusuario/seurepositorio.git (push)
 
 Para ver o url
 
-```git config --get remote.origin.url```
+```git config --get remote.origin.url
+ou
+git remote get-url origin
+```
+
+Para ver nome do remoto
+
+```
+git remote
+```
+
+Ver detalhe completo
+
+```
+git remote show origin
+```
+
+resultado parecido com
+
+remote origin
+..Fetch URL: https://github.com/Alle84fr/react_basico_ud.git
+..Push  URL: https://github.com/Alle84fr/react_basico_ud.git
+..HEAD branch: main
+..Remote branch:
+...main tracked
 
 ### 🌱 Repositório:
 
@@ -133,7 +159,7 @@ Clicar no botão verde new
 
 &nbsp;&nbsp;&nbsp;&nbsp;Por costume eu add REDME.md depois, deixo off
 
-5° ADD GITIGNORE - Gitignore é uma pasta com conteúdos que deverão ser ignorados na hora de commitar e dar push, já tive de usar, mas, geralmente deixo No.gitignore
+5° ADD GITIGNORE - Gitignore é um arquivo com conteúdos que deverão ser ignorados na hora de commitar e dar push, já tive de usar, mas, geralmente deixo No.gitignore
 
 6° ADD LINCENSE - diria que é como outros pode usar, divulgar o conteúdo, se tem permissão de atuar no projeto.
 
@@ -390,17 +416,37 @@ esc
 
 :w - salvar
 
-:ws - salvar e sair
+:wq - salvar e sair
 
 :q - desistir
 
 DEPOIS DEVE DAR
 
 ```
-gir push --all --force 
+git push --all --force 
 ou 
 git push origin nome_branch -f
 ```
+
+Mostrar alterações antes do commit
+
+```
+git diff
+```
+
+Mostrar detalhes de um commit
+
+```
+git show has_commit
+```
+
+<b> desfazer alterações em arquivos</b>
+
+```git resstore aquivo```
+
+<b><u> criar nova versão do projeto</u><b>
+
+``` git tag v1.0```
 
 [⬆︎ voltar](#comandos)
 <br>
@@ -415,8 +461,8 @@ Enviar modificações do repositório local para remoto
 git push origin nome_branch
 ```
 
-ex: git branch origin main
-ex: git branch origin alle
+ex: git push origin main
+ex: git push origin alle
 
 - envinando todas branches local
 
@@ -492,7 +538,7 @@ git checkout alle
  -b de branch, comando que faz mudar a branch "automaticamente"
 
 ```
-git checkout -d nome_branch
+git checkout -b nome_branch
 ```
 ex: ao dar enter, irá criar a branch alle, sairá da branch main e entrará na alle
 git checkout -b alle
@@ -532,7 +578,7 @@ git reset --hard nome_branch_original
 ```
 
 ex: Já está dentro da branch lua
-git --hard alle
+git reset --hard alle
 
 - copiar branch mantendo historio, se tiver arquivos diferentes irá manter-nos, já os que tiverem iguais, irá sobrescrever
 
